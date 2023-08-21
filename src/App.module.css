@@ -1,0 +1,7 @@
+.continer {
+    display: flex;
+    flex-direction: row;
+    border: 2px solid gray;
+    margin: 25px;
+    box-shadow: 0 0 10px black, 0 0 50px black, 0 0 80px black;
+}

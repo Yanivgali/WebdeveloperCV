@@ -1,0 +1,67 @@
+.aboutme {
+    background-color: #344156;
+    color: white;
+    width: 20%;
+    min-height: 80vh;
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+
+}
+a {
+    display: inline-block;
+    height: 25px;
+    color: white;
+}
+
+        svg{
+    padding-right:5px;
+}
+.hrstyle {
+    border: 0;
+    width: 45%;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding:0;
+}
+
+.profile {
+    height: 50px;
+    width: 50px;
+    background-image: url(../image/profiles.jpeg);
+    background-size: 50px 50px;
+    background-position: top;
+    background-repeat: no-repeat;
+    border: 2px double white;
+    border-radius: 50%;
+}
+
+.center {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.aboutme div.Skills > h3{
+    text-shadow: 0 0 1px #00b3ff, 0 0 10px #00b3ff, 0 0 20px #00b3ff;
+}
+.content h3 {
+    background-color: #C9D4DD;
+    color: white;
+    border: 2px double whitesmoke;
+    border-radius: 30px / 100%;
+}
+@media (max-width: 1000px) {
+    .aboutme {
+        width:35%;
+    }
+        img {
+        width: 50px;
+        height: 50px;
+    }
+}
